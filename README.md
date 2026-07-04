@@ -124,7 +124,3 @@ The experiment generates:
 - voltage profile plots,
 - violation reduction plots,
 - same-topology and unseen-topology comparison.
-
-## How this supports PhD application
-
-This project is directly related to distribution-system decision-making because it formulates an operational control action, solves it with mathematical optimization, and evaluates how much the decision reduces voltage violations. It shows practical familiarity with optimization for energy systems, Pyomo, and power-system constraints.
