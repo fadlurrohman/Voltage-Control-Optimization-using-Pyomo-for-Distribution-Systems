@@ -1,0 +1,13 @@
+{
+  "feeder": "radial_9_unseen",
+  "num_scenarios": 120,
+  "num_buses": 9,
+  "mean_violating_buses_before": 8.0,
+  "mean_violating_buses_after": 7.8,
+  "mean_total_violation_before_pu": 0.9786709698197532,
+  "mean_total_violation_after_pu": 0.5351790359740622,
+  "violation_reduction_percent": 45.315734043625625,
+  "mean_min_voltage_before_pu": 0.7770477958158535,
+  "mean_min_voltage_after_pu": 0.862197975097168,
+  "mean_total_abs_q_control_pu": 0.36000000000000004
+}

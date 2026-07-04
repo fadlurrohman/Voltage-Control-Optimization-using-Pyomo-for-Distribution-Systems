@@ -1,0 +1,25 @@
+seed: 42
+num_scenarios: 120
+feeder_name: radial_15
+voltage:
+  slack_vm_pu: 1.0
+  v_min_pu: 0.95
+  v_max_pu: 1.05
+  v_target_pu: 1.0
+load:
+  active_scale_min: 0.75
+  active_scale_max: 1.75
+  reactive_scale_min: 0.75
+  reactive_scale_max: 1.75
+control:
+  controllable_buses: [4, 8, 12, 14]
+  q_capability_pu: 0.18
+objective:
+  violation_weight: 1000.0
+  voltage_deviation_weight: 5.0
+  control_effort_weight: 0.5
+  loss_proxy_weight: 0.1
+solver:
+  preferred: appsi_highs
+output:
+  results_dir: results

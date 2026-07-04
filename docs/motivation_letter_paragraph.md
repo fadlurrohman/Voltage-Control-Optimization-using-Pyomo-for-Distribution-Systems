@@ -1,0 +1,3 @@
+# Motivation letter paragraph
+
+To strengthen my preparation for research on AI-based decision-making in distribution systems, I also developed a Pyomo-based voltage control optimization project. The project formulates reactive power control as an operational decision problem in radial distribution networks and evaluates how optimized control actions reduce voltage-limit violations under varying load conditions. This experience helped me connect machine learning-based prediction with optimization-based decision support, which is highly relevant to the development of reliable AI models for distribution system operation.

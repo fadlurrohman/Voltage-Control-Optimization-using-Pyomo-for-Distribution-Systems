@@ -1,0 +1,6 @@
+# Voltage-control comparison
+
+| feeder          |   num_scenarios |   mean_violating_buses_before |   mean_violating_buses_after |   mean_total_violation_before_pu |   mean_total_violation_after_pu |   violation_reduction_percent |   mean_min_voltage_before_pu |   mean_min_voltage_after_pu |   mean_total_abs_q_control_pu |
+|:----------------|----------------:|------------------------------:|-----------------------------:|---------------------------------:|--------------------------------:|------------------------------:|-----------------------------:|----------------------------:|------------------------------:|
+| radial_15       |             120 |                            14 |                      13.6583 |                         2.3697   |                        1.06901  |                       54.8885 |                     0.711172 |                    0.838544 |                          0.72 |
+| radial_9_unseen |             120 |                             8 |                       7.8    |                         0.978671 |                        0.535179 |                       45.3157 |                     0.777048 |                    0.862198 |                          0.36 |
